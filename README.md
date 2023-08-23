@@ -59,7 +59,7 @@ ws
 Uso
 Aqui estão alguns trechos de exemplo para ajudá-lo a começar a criar um contêiner.
 
-docker-compose (recomendado, clique aqui para mais informações )
+docker-compose
 ---
 version: "2.1"
 services:
@@ -79,7 +79,11 @@ services:
       - 80:80
       - 4001:4001 #optional
     restart: unless-stopped
-docker cli ( clique aqui para mais informações )
+
+
+
+    
+docker cli 
 docker run -d \
   --name=emulatorjs \
   -e PUID=1000 \
