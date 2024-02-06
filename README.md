@@ -3,9 +3,9 @@
 As arquiteturas suportadas por esta imagem são:
 
 Arquitetura	Disponível	Marcação
-x86-64	✅	amd64-<marca de versão>
-braço64	✅	arm64v8-<marca de versão>
-armhf	✅	arm32v7-<tag de versão>
+x86-64	✅	amd64
+braço64	✅	arm64v8
+armhf	✅	arm32v7
 Configuração do aplicativo
 O Backend pode ser acessado em:
 
